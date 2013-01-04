@@ -1,0 +1,49 @@
+% Custom Math Macros
+
+% Horizontal cancel
+\DeclareDocumentCommand{\hcancel}{mO{0pt}O{0pt}O{0pt}O{0pt}}{%
+  \tikz[baseline=(tocancel.base)]{
+    \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+    \draw[statorange] ($(tocancel.south west)+(#2,#3)$) -- ($(tocancel.north east)+(#4,#5)$);
+  }%
+}%
+
+\def\ZZ{\mathrm{Z\kern-.3em\raise-0.5ex\hbox{Z}}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\def\given{\,|\,}
+
+
+
+\newcommand{\Prob}[1]{\mathop{\mathbb P\left[#1\right]}}
+\newcommand{\Expec}[1]{\mathop{\mathbb E\left[#1\right]}}
+\newcommand{\Var}[1]{\mathop{\mathbb V\left[#1\right]}}
+
+\newcommand{\Rang}[1]{\mathop{\mathrm{rg}\left(#1\right)}}
+\newcommand{\Spur}[1]{\mathop{\mathrm{sp}\left(#1\right)}}
+
+\newcommand{\underbracewithoutspace}[2]{\mathrlap{\underbrace{\phantom{#1\strut}}_{#2}}#1}
+
+\DeclareMathOperator{\argmin}{argmin}
+
+\def\Ind{\mathbb{1}}
+
+\def\Real{\mathbb{R}}
+\def\Natural{\mathbb{N}}
+\def\Complex{\mathbb{C}}
+\def\Rational{\mathbb{Q}}
+
+\def\Power{\mathcal{P}}
+
+\def\Borel{\mathcal{B}}
+\def\Algebra{\mathcal{A}}
+
+\newcommand{\norm}[1]{\lVert#1\rVert}
+
+\newcommand*{\defeq}{\mathrel{\vcenter{\baselineskip0.5ex \lineskiplimit0pt
+      \hbox{\scriptsize.}\hbox{\scriptsize.}}}%
+  =}
+
+% Other misc commands
+\providecommand{\alert}[1]{\textbf{#1}}

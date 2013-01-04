@@ -1,0 +1,10 @@
+* rbeamer
+** Requirements
+- TeXLive 2011 or newer
+- Calibri, Cambria Math and Menlo fonts
+- [[http://pygments.org/][Pygments]]
+** Installation
+** Compiling
+Compile with xelatex --shell-escape example.tex, or latexmk -pdflatex='xelatex --shell-escape' -pdf example.tex if you have latexmk installed
+* rarticle
+* rcalibri
