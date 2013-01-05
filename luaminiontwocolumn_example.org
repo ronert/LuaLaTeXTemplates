@@ -2,8 +2,8 @@
 #+AUTHOR: Ronert Obst
 #+EMAIL: ronert.obst@gmail.com
 #+DATE: \today
-#+LATEX_CMD: xelatex
-#+LaTeX_CLASS: rarticle
+#+LATEX_CMD: lualatex
+#+LaTeX_CLASS: luaminiontwocolumn
 #+LaTeX_CLASS_OPTIONS: [english]
 * Erstes Kapitel
 Duis auctor ligula et lorem fermentum commodo. Quisque commodo posuere nulla id gravida. Pellentesque pretium bibendum nisi, nec condimentum ante ullamcorper vitae. Vivamus non sapien mauris, quis tincidunt dui. Nunc cursus luctus felis in sagittis. Proin tincidunt blandit metus, eget convallis risus blandit ut. In hac habitasse platea dictumst. Sed molestie blandit nibh, vel laoreet nibh pretium accumsan. Proin id semper erat. Sed elementum congue mi quis dapibus. Nulla urna nibh, adipiscing sed sodales sit amet, sollicitudin convallis libero. Quisque eros lacus, auctor et egestas vel, gravida sit amet tortor.

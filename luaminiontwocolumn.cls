@@ -1,7 +1,6 @@
-\ProvidesClass{rarticle}
+\ProvidesClass{luaminiontwocolumn}
 
 % language options
-\RequirePackage[babelshorthands]{polyglossia}
 \DeclareOption{english}{\input{english}}
 \DeclareOption{german}{\input{german}}
 
@@ -22,7 +21,7 @@
 \input{encoding}
 
 % colour
-\usepackage[xetex, natural, svgnames, rgb, cmyk, table, x11names]{xcolor}
+\usepackage[natural, svgnames, rgb, cmyk, table, x11names]{xcolor}
 \input{colour}
 
 % other packages
@@ -33,7 +32,7 @@
 
 % hyperlinks
 \usepackage{url}
-\usepackage[xetex, colorlinks=true, linkcolor=DarkRed, urlcolor=DarkRed,
+\usepackage[colorlinks=true, linkcolor=DarkRed, urlcolor=DarkRed,
 citecolor=DarkRed, filecolor=DarkRed, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
