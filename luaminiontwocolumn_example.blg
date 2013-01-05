@@ -1,9 +1,9 @@
 [1] Config.pm:357> INFO - This is Biber 1.4
-[1] Config.pm:360> INFO - Logfile is 'luaminiontwocolumn_example.blg'
-[208] biber-darwin:157> INFO - === Sat Jan  5, 2013, 10:52:33
-[208] Biber.pm:286> INFO - Reading 'luaminiontwocolumn_example.bcf'
-[342] Biber.pm:573> INFO - Found 0 citekeys in bib section 0
-[343] Utils.pm:167> WARN - The file 'luaminiontwocolumn_example.bcf' does not contain any citations!
-[387] bbl.pm:462> INFO - Writing 'luaminiontwocolumn_example.bbl' with encoding 'UTF-8'
-[387] bbl.pm:535> INFO - Output to luaminiontwocolumn_example.bbl
-[388] Biber.pm:107> INFO - WARNINGS: 1
+[14] Config.pm:360> INFO - Logfile is 'luaminiontwocolumn_example.blg'
+[515] biber-darwin:157> INFO - === Sat Jan  5, 2013, 11:41:53
+[515] Biber.pm:286> INFO - Reading 'luaminiontwocolumn_example.bcf'
+[625] Biber.pm:573> INFO - Found 0 citekeys in bib section 0
+[625] Utils.pm:167> WARN - The file 'luaminiontwocolumn_example.bcf' does not contain any citations!
+[667] bbl.pm:462> INFO - Writing 'luaminiontwocolumn_example.bbl' with encoding 'UTF-8'
+[667] bbl.pm:535> INFO - Output to luaminiontwocolumn_example.bbl
+[667] Biber.pm:107> INFO - WARNINGS: 1

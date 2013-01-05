@@ -1,12 +1,12 @@
-This is LuaTeX, Version beta-0.70.2-2012062819 (TeX Live 2012) (format=lualatex 2012.12.22)  5 JAN 2013 12:05
+This is LuaTeX, Version beta-0.70.2-2012062819 (TeX Live 2012) (format=lualatex 2012.12.22)  5 JAN 2013 12:12
  \write18 enabled.
-**luaminiontwocolumn_example.tex
-(./luaminiontwocolumn_example.tex
+**luaminiononecolumn_example.tex
+(./luaminiononecolumn_example.tex
 LaTeX2e <2011/06/27>
 LuaTeX adaptation of babel <v3.8m-luatex-1.5> and hyphenation patterns for engl
 ish, dumylang, nohyphenation, loaded.
-(./luaminiontwocolumn.cls
-Document Class: luaminiontwocolumn 
+(./luaminiononecolumn.cls
+Document Class: luaminiononecolumn 
 (./english.tex)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
@@ -65,25 +65,17 @@ Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-DIV calculation for typearea with good linewidth.
-
-Package typearea Warning: Maybe no optimal type area settings!
-(typearea)                The maximum limit of line width is about 21%
-(typearea)                larger than the heuristically detected line width.
-(typearea)                You may e.g. increase DIV, decrease fontsize
-(typearea)                or change the papersize.
-
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 21
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 512.14966pt
-(typearea)              DIV departure   = 21%
-(typearea)              \evensidemargin = -29.59085pt
-(typearea)              \oddsidemargin  = -29.59085pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 730.0pt
-(typearea)              \topmargin      = -65.02966pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
 (typearea)              \headheight     = 15.0pt
 (typearea)              \headsep        = 18.0pt
 (typearea)              \topskip        = 10.0pt
@@ -1491,11 +1483,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
-runsystem(uname -s > "luaminiontwocolumn_example.w18")...executed.
+runsystem(uname -s > "luaminiononecolumn_example.w18")...executed.
 
 
-(./luaminiontwocolumn_example.w18)
-runsystem(rm -- "luaminiontwocolumn_example.w18")...executed.
+(./luaminiononecolumn_example.w18)
+runsystem(rm -- "luaminiononecolumn_example.w18")...executed.
 
 )
 \minted@bgbox=\box275
@@ -1503,14 +1495,14 @@ runsystem(rm -- "luaminiontwocolumn_example.w18")...executed.
 \@float@every@listing=\toks35
 \c@listing=\count356
 )
-runsystem(which pygmentize && touch luaminiontwocolumn_example.aex)...executed.
+runsystem(which pygmentize && touch luaminiononecolumn_example.aex)...executed.
 
-runsystem(rm luaminiontwocolumn_example.aex)...executed.
+runsystem(rm luaminiononecolumn_example.aex)...executed.
 
-runsystem(pygmentize -S tango -f latex > luaminiontwocolumn_example.pyg)...exec
+runsystem(pygmentize -S tango -f latex > luaminiononecolumn_example.pyg)...exec
 uted.
 
- (./luaminiontwocolumn_example.pyg)
+ (./luaminiononecolumn_example.pyg)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@col@width=\dimen296
@@ -2628,14 +2620,6 @@ LT;+tlig;+trep;"
 luaotfload | load font: font family='droidsansmono', subfamily='regular' found:
  DroidSansMono.ttf(load: /Users/ronert/Library/texlive/2012/texmf-var/luatex-ca
 che/generic/fonts/otf/temp-droidsansmono.lua)
-luaotfload | load otf: loading: /usr/local/texlive/2012/texmf-dist/fonts/truety
-pe/public/droid/DroidSansMono.ttf (hash: droidsansmono)
-luaotfload | load otf: font loaded okay
-luaotfload | load otf: file size: 119380
-luaotfload | load otf: enhancing ...
-luaotfload | load otf: saving in cache: /usr/local/texlive/2012/texmf-dist/font
-s/truetype/public/droid/DroidSansMono.ttf(save: /Users/ronert/Library/texlive/2
-012/texmf-var/luatex-cache/generic/fonts/otf/temp-droidsansmono.lua)
 luaotfload | load font: font family='droidsansmono', subfamily='regular' found:
  DroidSansMono.ttf
 .................................................
@@ -2736,15 +2720,15 @@ luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
 sers/ronert/Library/Fonts/MinionMath-Regular.otf
 fontspec: script 'math' exists in font 'Minion Math-2'
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 46.
+(Font)              `operators' in the math version `normal' on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/ztmcm/m/n --> EU2/MinionMath(0)/m/n on input line 4
-6.
+7.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 46.
+(Font)              `operators' in the math version `bold' on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/ztmcm/m/n --> EU2/MinionMath(0)/bx/n on input line 
-46.
+47.
 luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
 sers/ronert/Library/Fonts/MinionMath-Regular.otf
 luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
@@ -2799,15 +2783,15 @@ ntdimen
 . 22\font =167116.8sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 46.
+(Font)              `symbols' in the math version `normal' on input line 47.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/ztmcm/m/n --> EU2/MinionMath(1)/m/n on input line 4
-6.
+7.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 46.
+(Font)              `symbols' in the math version `bold' on input line 47.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/ztmcm/m/n --> EU2/MinionMath(1)/bx/n on input line 
-46.
+47.
 luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
 sers/ronert/Library/Fonts/MinionMath-Regular.otf
 luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
@@ -2853,16 +2837,16 @@ ntdimen
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 4
-6.
+7.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/ztmcm/m/n --> EU2/MinionMath(2)/m/n on input line 4
-6.
+7.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 46.
+(Font)              `largesymbols' in the math version `bold' on input line 47.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/ztmcm/m/n --> EU2/MinionMath(2)/bx/n on input line 
-46.
+47.
 luaotfload | load font: font family='minionprobold', subfamily='regular' found:
  /Users/ronert/Library/Fonts/MinionPro-Bold.otf
 luaotfload | load font: font family='minionprobold', subfamily='regular' found:
@@ -2954,10 +2938,10 @@ luaotfload | load font: font family='minionprobold', subfamily='regular' found:
 \symum_fam1=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `um_fam1' in version `normal'
 (Font)                  EU2/MinionProBold(0)/m/n --> EU2/MinionProBold(0)/m/n o
-n input line 47.
+n input line 48.
 LaTeX Font Info:    Overwriting symbol font `um_fam1' in version `bold'
 (Font)                  EU2/MinionProBold(0)/m/n --> EU2/MinionProBold(0)/bx/n 
-on input line 47.
+on input line 48.
 luaotfload | load font: font family='minionprobolditalic', subfamily='regular' 
 found: /Users/ronert/Library/Fonts/MinionPro-BoldIt.otf
 luaotfload | load font: font family='minionprobolditalic', subfamily='regular' 
@@ -3049,38 +3033,13 @@ found: /Users/ronert/Library/Fonts/MinionPro-BoldIt.otf
 \symum_fam2=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `um_fam2' in version `normal'
 (Font)                  EU2/MinionProBoldItalic(0)/m/n --> EU2/MinionProBoldIta
-lic(0)/m/n on input line 48.
+lic(0)/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `um_fam2' in version `bold'
 (Font)                  EU2/MinionProBoldItalic(0)/m/n --> EU2/MinionProBoldIta
-lic(0)/bx/n on input line 48.
+lic(0)/bx/n on input line 49.
 (/Users/ronert/Library/texmf/tex/latex/MinionPro/tabfigures.sty
 Package: tabfigures 2007/05/07 v0.1d Tabular figures (patches)
 )
-DIV calculation for typearea with good linewidth.
-
-Package typearea Warning: Maybe no optimal type area settings!
-(typearea)                The maximum limit of line width is about 18%
-(typearea)                larger than the heuristically detected line width.
-(typearea)                You may e.g. increase DIV, decrease fontsize
-(typearea)                or change the papersize.
-
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 21
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 512.14966pt
-(typearea)              DIV departure   = 18%
-(typearea)              \evensidemargin = -29.59085pt
-(typearea)              \oddsidemargin  = -29.59085pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 730.0pt
-(typearea)              \topmargin      = -65.02966pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 60.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \pltopsep=\skip360
@@ -3112,7 +3071,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(./luaminiontwocolumn_example.aux)
+
+LaTeX Warning: Unused global option(s):
+    [paper=a4].
+
+(./luaminiononecolumn_example.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -3143,9 +3106,9 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'luaminiontwocolumn_example.bbl' found.
+Package biblatex Info: ... file 'luaminiononecolumn_example.bbl' found.
 
-(./luaminiontwocolumn_example.bbl)
+(./luaminiononecolumn_example.bbl)
 Package biblatex Info: Reference section=0 on input line 15.
 Package biblatex Info: Reference segment=0 on input line 15.
 LaTeX Info: Redefining \microtypecontext on input line 15.
@@ -3215,7 +3178,7 @@ LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
 
-(./luaminiontwocolumn_example.out) (./luaminiontwocolumn_example.out)
+(./luaminiononecolumn_example.out) (./luaminiononecolumn_example.out)
 \@outlinefile=\write10
 
 
@@ -3365,7 +3328,7 @@ luaotfload | load font: font family='myriadpro', subfamily='bold' found: /Users
 Package tocbasic Info: character protrusion at toc deactivated on input line 20
 .
 
-(./luaminiontwocolumn_example.toc
+(./luaminiononecolumn_example.toc
 Package cleveref Info: loaded `english' language definitions on input line 3.
 luaotfload | load font: auto-selecting default features for script: dflt (was m
 ath)
@@ -3441,45 +3404,30 @@ found: /Users/ronert/Library/Fonts/MinionPro-BoldIt.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionprobolditalic', subfamily='regular' 
-found: /Users/ronert/Library/Fonts/MinionPro-BoldIt.otf)
-\tf@toc=\write11
-
-Underfull \hbox (badness 1137) in paragraph at lines 27--28
-\EU2/MinionPro(0)/m/n/10 com-modo po-suere nulla id gravida. Pel-len-tesque pre
-tium
- []
-
-[1
+found: /Users/ronert/Library/Fonts/MinionPro-BoldIt.otf [1
 
 
 {/Users/ronert/Library/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
-p}]
+p}] [2])
+\tf@toc=\write11
+
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 27--28
+[]\EU2/MinionPro(0)/m/n/10 Duis auc-tor ligula et lorem fer-men-tum com-modo. Q
+uisque com-modo po-suere nulla id gravida.
+ []
+
+[3]
 LaTeX Font Info:    Font shape `EU2/MyriadPro(0)/bx/n' will be
 (Font)              scaled to size 11.59058pt on input line 38.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='myriadpro', subfamily='bold' found: /Users
 /ronert/Library/Fonts/MyriadPro-Bold.otf
-Underfull \hbox (badness 1394) in paragraph at lines 44--45
-[]\EU2/MinionPro(0)/m/n/10 Zeigen Sie, dass $\l_fontspec_font 𝑃(ℕ)$ \EU2/M
-inionPro(0)/m/n/10 die kle-in-ste $\l_fontspec_font 𝜎$\EU2/MinionPro(0)/m/n/
-10 -Algebra auf der
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 44--45
-\EU2/MinionPro(0)/m/n/10 Menge $\l_fontspec_font ℕ$ \EU2/MinionPro(0)/m/n/10 
-der natür-lichen Zahlen ist, die von allen
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='regular' found: /Us
 ers/ronert/Library/Fonts/MinionPro-Capt.otf(load: /Users/ronert/Library/texlive
-/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-minionpro-capt.lua)
+/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-minionpro-capt.lua) [4]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='regular' found: /Us
@@ -3487,13 +3435,7 @@ ers/ronert/Library/Fonts/MinionPro-Capt.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='regular' found: /Us
-ers/ronert/Library/Fonts/MinionPro-Capt.otf
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-[] \l_fontspec_font ∶ 𝐵 = {𝐴 ⊂ ℝ ∶ 𝐴 []} ∪ {𝐴 ⊂ ℝ 
-∶
- []
-
-[2]
+ers/ronert/Library/Fonts/MinionPro-Capt.otf [5]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='italic' found: /Use
@@ -3506,50 +3448,17 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='bold' found: /Users
 /ronert/Library/Fonts/MinionPro-Bold.otf
-Overfull \hbox (16.39232pt too wide) detected at line 137
-\l_fontspec_font 𝜎[] = {∅, {1, 2}, {3, 4, 5, 6, 7}, {6}, {1, 2, 3, 4, 5, 7
-}, {1, 2, 6}, {3, 4, 5, 7}, 𝛺}
- []
-
+Package mdframed Info: Not enough space on this page on input line 134.
+[6]
+Package mdframed Info: Not enough space on this page on input line 134.
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-[3]
-Underfull \hbox (badness 1596) in paragraph at lines 211--212
-[][]\EU2/MinionPro(0)/m/n/10 Seien $\l_fontspec_font (𝛺[], 𝐴[]), (𝛺[],
- 𝐴[])$ \EU2/MinionPro(0)/m/n/10 zwei Mess-räume. $\l_fontspec_font 𝑋$ \E
-U2/MinionPro(0)/m/n/10 ist $\l_fontspec_font 𝐴[] −
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 217--218
-[][]\EU2/MinionPro(0)/m/n/10 Das \EU2/MinionPro(0)/bx/n/10 Ur-bild $\l_fontspec
-_font 𝑋[](𝐴[]) []= {𝑋[](𝐴), 𝐴 ∈ 𝐴[]}$ \EU2/MinionPro(0)/m/n
-/10 ist kle-in-ste
- []
-
-
-Overfull \hbox (38.278pt too wide) detected at line 284
-[][] [] \l_fontspec_font = [][] ℎ(𝑥) [] 𝑑[]𝑥 = []
- []
-
+[7] [8] [9] [10]
 Package mdframed Info: Not enough space on this page on input line 306.
-[4]
-Package mdframed Info: Not enough space on this page on input line 306.
-
-Overfull \hbox (59.5669pt too wide) in paragraph at lines 317--317
-[][] 
- []
-
-[5]
-Overfull \hbox (93.5431pt too wide) detected at line 408
-[][] \l_fontspec_font 𝑓(𝜔[], … , 𝜔[]) 𝑑[][] = [][] [][] ⋯ [][] 
-𝑓(𝜔[], … , 𝜔[]) 𝜇[](𝑑𝜔[]) … 𝜇[](𝑑𝜔[])
- []
-
-
+ [11] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
@@ -3559,149 +3468,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--461
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+[15] [16] [17] [18]
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 453.
+(mdframed)                or something else on input line 611.
 
-
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last split box is empty
-(mdframed)                You have to change the settings on input line 453.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-
- []
-
-[6]
-Overfull \hbox (96.09683pt too wide) in paragraph at lines 523--523
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-[][]\EU2/MinionPro(0)/m/n/10 Für $\l_fontspec_font 𝛼[], 𝛼[] ∈ ℝ$ \EU
-2/MinionPro(0)/m/n/10 ist $[] \l_fontspec_font =
- []
-
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 578.
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
-[][]$\l_fontspec_font 𝑋, 𝑌$ \EU2/MinionPro(0)/m/n/10 haben gemein-same Di
-chte $\l_fontspec_font 𝑓[](𝑥, 𝑦) = 𝑥𝑒[] ⋅
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 608--611
-[]\EU2/MinionPro(0)/m/n/10 Seien $\l_fontspec_font 𝑋, 𝑌$ \EU2/MinionPro(0
-)/m/n/10 Zu-fallsvari-ablen mit gemein-samer Dichte
- []
-
-
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
-
-Overfull \hbox (3.71332pt too wide) in paragraph at lines 653--653
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 2460) in paragraph at lines 659--660
-[][]\EU2/MinionPro(0)/m/n/10 Für jedes $\l_fontspec_font 𝑐 ∈ ℝ$ \EU2/Mi
-nionPro(0)/m/n/10 und Sub-Martingal $\l_fontspec_font (𝑋[])[]$ \EU2/MinionPr
-o(0)/m/n/10 ist auch
- []
-
-
-Overfull \hbox (14.64467pt too wide) in paragraph at lines 682--682
-[][] 
- []
-
-
+[19] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 682--684
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
-[][]\EU2/MinionPro(0)/m/n/10 Ist umgekehrt $\l_fontspec_font (𝑋[])[]$ \EU2/M
-inionPro(0)/m/n/10 als Mar-tin-gal vo-raus-ge-setzt und
+[22] [23]
+Package mdframed Info: Not enough space on this page on input line 770.
+ [24]
+Package mdframed Info: Not enough space on this page on input line 770.
+ [25]
+Overfull \hbox (1.5464pt too wide) in paragraph at lines 806--807
+[]\EU2/MinionPro(0)/m/n/10 Let $\l_fontspec_font {𝑋[] ∶≥ 1}$ \EU2/Minion
+Pro(0)/m/n/10 be in-de-pen-dent Pois-son vari-ables with re-spec-tive pa-ram-e-
+ters $[]$. Show
  []
 
-
-Underfull \hbox (badness 2744) in paragraph at lines 697--700
-[][]\EU2/MinionPro(0)/m/n/10 Da-her ist eine Folge reeler in-te-grier-barer Zu-
-fallsvari-ablen
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 705--709
-\l_fontspec_font 𝐹[] = 𝜎(𝑍[], … , 𝑍[])$ \EU2/MinionPro(0)/m/n/10 
-eine Fil-tra-tion. Ferner sei $\l_fontspec_font 𝑋[] []=
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 712--713
-[][]$\l_fontspec_font 𝑋[]$ \EU2/MinionPro(0)/m/n/10 ist $\l_fontspec_font 
-𝐹[]$\EU2/MinionPro(0)/m/n/10 -mb. da Kom-po-si-tion aus $\l_fontspec_font 
-𝑍[]$ \EU2/MinionPro(0)/m/n/10 und $\l_fontspec_font 𝐹[] =
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 713--714
-[][]$\l_fontspec_font 𝐹[]$ \EU2/MinionPro(0)/m/n/10 ist Fil-tra-tion (In-for
--ma-tion komm hinzu) $\l_fontspec_font ⇒  𝐹[] ⊂
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 768--770
-[]\EU2/MinionPro(0)/m/n/10 ein Mar-tin-gal bezüglich der kanon-is-chen Fil-tra
--tion
- []
-
-
-Overfull \hbox (12.84741pt too wide) in paragraph at lines 777--777
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 783--785
-[]\EU2/MinionPro(0)/m/n/10 ein Mar-tin-gal bezüglich der kanon-is-chen Fil-tra
--tion
- []
-
-[10]
-Underfull \hbox (badness 1478) in paragraph at lines 834--836
-[]\EU2/MinionPro(0)/m/n/10 Sei $\l_fontspec_font (𝑋[])[]$ \EU2/MinionPro(0)/
-m/n/10 eine Folge un-ab-hängiger Zu-fallsvari-ablen,
- []
-
-
-Overfull \hbox (29.73701pt too wide) in paragraph at lines 843--843
-[][] 
- []
-
+[26]
 luaotfload | load font: auto-selecting default features for script: dflt (was m
 ath)
 luaotfload | load font: font family='minionmath', subfamily='regular' found: /U
@@ -3801,52 +3607,451 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 844.
 
-[11]
 
-LaTeX Warning: Reference `weakeg' on page 1 undefined on input line 907.
+Overfull \vbox (6.33763pt too high) detected at line 863
+ []
 
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 863.
 
-Overfull \hbox (8.79153pt too wide) detected at line 917
-[] \l_fontspec_font = [][] = [][]
+Overfull \vbox (7.33763pt too high) detected at line 863
  []
 
 
-Overfull \hbox (156.84592pt too wide) in paragraph at lines 950--950
+Overfull \vbox (8.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (9.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (10.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (11.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (12.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (13.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (14.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (15.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (16.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (17.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (18.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (19.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (20.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (21.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (22.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (23.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (24.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (25.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (26.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (27.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (28.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (29.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (30.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (31.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (32.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (33.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (34.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (35.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (36.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (37.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (38.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (39.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (40.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (41.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (42.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (43.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (44.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (45.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (46.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (47.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (48.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (49.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (50.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (51.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (52.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (53.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (54.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (55.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (56.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (57.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (58.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (59.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (60.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (61.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (62.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (63.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (64.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (65.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (66.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (67.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (68.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (69.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (70.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (71.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (72.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (73.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (74.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (75.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (76.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (77.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (78.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (79.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (80.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (81.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (82.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (83.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (84.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (85.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (86.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (87.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (88.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (89.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (90.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (91.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (92.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (93.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (94.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (95.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (96.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (97.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (98.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (99.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (100.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (101.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (102.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (103.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (104.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (105.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (106.33763pt too high) detected at line 863
+ []
+
+
+Overfull \vbox (107.33763pt too high) detected at line 863
+ []
+
+
+Package mdframed Warning: correct box splittet fails
+ It seems you are using a non splittable contents
+(mdframed)                 on input line 863.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 863.
+[27] [28]
+
+LaTeX Warning: Reference `weakeg' on page 1 undefined on input line 907.
+
+[29]
+Overfull \hbox (34.47829pt too wide) in paragraph at lines 950--950
 [][] 
  []
 
 
-Overfull \hbox (167.6459pt too wide) detected at line 950
+Overfull \hbox (45.27827pt too wide) detected at line 950
 []
  []
 
 
 LaTeX Warning: Reference `conv.impl' on page 1 undefined on input line 961.
 
-[12]
-Overfull \hbox (23.42223pt too wide) in paragraph at lines 979--979
-[][] 
- []
-
-
-Overfull \hbox (34.22221pt too wide) detected at line 979
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[30] [31]
 
 LaTeX Warning: Reference `aufgabe2' on page 1 undefined on input line 1007.
 
+[32]
 
 LaTeX Warning: Reference `expvar' on page 1 undefined on input line 1008.
 
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [13]
+[33]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='italic' found: /Use
@@ -3855,40 +4060,45 @@ e/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-minionpro-itcapt.lua)
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='minionpro', subfamily='italic' found: /Use
-rs/ronert/Library/Fonts/MinionPro-ItCapt.otf [14]
-Underfull \vbox (badness 1496) has occurred while \output is active []
+rs/ronert/Library/Fonts/MinionPro-ItCapt.otf [34] [35]
+Overfull \hbox (23.47232pt too wide) in paragraph at lines 1144--1145
+[]\EU2/MinionPro(0)/m/n/10 Seien $\l_fontspec_font 𝑋[], 𝑋[], …$ \EU2/Mi
+nionPro(0)/m/n/10 iid auf $\l_fontspec_font [0, 1]$ \EU2/MinionPro(0)/m/n/10 Gl
+e-ichverteilt. Gegen welche Verteilung kon-vergiert $\l_fontspec_font 𝑛 ⋅ 
+[][] 𝑋[]$
+ []
 
+[36]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1167.
- [15]
+ [37]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1167.
-
-(./luaminiontwocolumn_example.aux
+ (./luaminiononecolumn_example.aux
 Package cleveref Info: loaded `english' language definitions on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1167.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1167.
 
-Package rerunfilecheck Info: File `luaminiontwocolumn_example.out' has not chan
+Package rerunfilecheck Info: File `luaminiononecolumn_example.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 36E0E319E4EF6041E58754F831FE3AA9;5470.
 
 
 LaTeX Warning: There were undefined references.
 
-Package logreq Info: Writing requests to 'luaminiontwocolumn_example.run.xml'.
+Package logreq Info: Writing requests to 'luaminiononecolumn_example.run.xml'.
  )
 
 Here is how much of LuaTeX's memory you used:
- 56651 strings out of 494982
- 156261,1977958 words of node,token memory allocated
- 3542 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 31 kern, 35 attribute, 380 glue_spec, 35 a
-ttribute_list, 1 action, 1 write nodes
-   avail lists: 1:88,2:13317,3:2180,4:1558,5:2520,6:5961,7:185,8:82,9:1635,10:9
-84,11:517,12:228
- 57640 multiletter control sequences out of 65536+200000
+ 56669 strings out of 494982
+ 100000,1977958 words of node,token memory allocated
+ 3592 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 37 kern, 41 attribute, 380 glue_spec, 41 a
+ttribute_list, 1 write nodes
+   avail lists: 1:51,2:9113,3:1847,4:855,5:1067,6:2633,7:76,8:44,9:929,10:985,1
+1:517,12:229
+ 57636 multiletter control sequences out of 65536+200000
  177 fonts using 28971319 bytes
- 83i,14n,87p,1000b,1902s stack positions out of 5000i,500n,10000p,20000000b,50000s
+ 83i,14n,87p,1000b,2180s stack positions out of 5000i,500n,10000p,20000000b,50000s
 </Users/ronert/Library/Fonts/MinionMath-Regular.otf></Users/ronert/Library/Font
 s/MinionPro-Bold.otf></Users/ronert/Library/Fonts/MinionPro-It.otf></Users/rone
 rt/Library/Fonts/MinionPro-Capt.otf></Users/ronert/Library/Fonts/MinionMath-Reg
@@ -3896,10 +4106,10 @@ ular.otf></Users/ronert/Library/Fonts/MinionMath-Regular.otf></Users/ronert/Lib
 rary/Fonts/MinionPro-Medium.otf></Users/ronert/Library/Fonts/MyriadPro-Bold.otf
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
 .pfb>
-Output written on luaminiontwocolumn_example.pdf (15 pages, 168365 bytes).
+Output written on luaminiononecolumn_example.pdf (37 pages, 177138 bytes).
 
-PDF statistics: 667 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 231 named destinations out of 1000 (max. 131072)
+PDF statistics: 762 PDF objects out of 1000 (max. 8388607)
+ 691 compressed objects within 7 object streams
+ 253 named destinations out of 1000 (max. 131072)
  616 words of extra memory for PDF output out of 10000 (max. 10000000)
 

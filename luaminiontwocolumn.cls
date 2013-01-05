@@ -40,7 +40,7 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 %\setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6},Numbers=OldStyle]{Minion Pro}
 \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
-\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
  \setmathfont[
     Script       = Math , %% evtl. unnötig (?)
     ]{Minion Math}

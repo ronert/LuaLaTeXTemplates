@@ -7,7 +7,8 @@
 \ProcessOptions\relax
 
 % KOMA-Script
-\LoadClass[DIV=calc,10pt,parskip,a4paper]{scrartcl}
+%\LoadClass[paper=a4,onecolumn,DIV=calc,10pt,parskip]{scrartcl}
+\LoadClass[a4paper,11pt,parskip]{scrartcl}
 \usepackage[ilines,headsepline,automark]{scrpage2}
 \cfoot{\pagemark}
 
@@ -40,7 +41,7 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 %\setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6},Numbers=OldStyle]{Minion Pro}
 \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
-\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
  \setmathfont[
     Script       = Math , %% evtl. unnötig (?)
     ]{Minion Math}
@@ -57,7 +58,7 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 \usepackage[toc,eqno,enum,bib,lineno]{tabfigures}
 
 % re-calculate div
-\KOMAoptions{DIV=last}
+%\KOMAoptions{DIV=last}
 
 % class specific
 \usepackage{paralist}
