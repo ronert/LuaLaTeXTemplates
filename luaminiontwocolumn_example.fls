@@ -593,8 +593,12 @@ INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/ot
 INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-myriadpro-bold.lua
 INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-myriadpro-it.lua
 INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-myriadpro-boldit.lua
-INPUT /usr/local/texlive/2012/texmf-dist/tex/luatex/luaotfload/otfl-blacklist.cnf
-OUTPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/names/otfl-names.lua
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.otf
+OUTPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-sourcecodepro-regular.lua
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Bold.otf
+OUTPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-sourcecodepro-bold.lua
+INPUT /Users/ronert/Library/Fonts/SourceCodePro-Regular.ttf
+OUTPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-sourcecodepro-regular.lua
 INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-minionmath-regular.lua
 INPUT /Users/ronert/Library/texmf/tex/latex/MinionPro/tabfigures.sty
 INPUT /Users/ronert/Library/texmf/tex/latex/MinionPro/tabfigures.sty
@@ -763,3 +767,9 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/ronert/Library/texlive/2012/texmf-var/luatex-cache/generic/fonts/otf/temp-minionpro-itcapt.lua
+INPUT ./luaminiontwocolumn_example.aux
+INPUT ./luaminiontwocolumn_example.out
+INPUT ./luaminiontwocolumn_example.run.xml
+OUTPUT luaminiontwocolumn_example.run.xml
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
