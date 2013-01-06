@@ -37,18 +37,19 @@ citecolor=DarkRed, filecolor=DarkRed, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
-%\setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6},Numbers=OldStyle]{Minion Pro}
+% \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6},Numbers=OldStyle]{Minion Pro}
 \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
- \setmathfont[
-    Script       = Math , %% evtl. unnötig (?)
-    ]{Minion Math}
-  \setmathfont[range={\mathbfup->\mathup}]{Minion Pro Bold}
-  \setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
+\setmathfont[
+Script       = Math , %% evtl. unnötig (?)
+]{Minion Math}
+\setmathfont[range={\mathbfup->\mathup}]{Minion Pro Bold}
+\setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
+\setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 
 % Bib Names in SmallCaps
-\AtBeginBibliography{% 
+\AtBeginBibliography{%
   \renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}%
   \renewcommand*{\mkbibnameprefix}[1]{\textsc{#1}}%
 }
