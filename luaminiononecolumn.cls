@@ -47,20 +47,24 @@ Script       = Math , %% evtl. unnötig (?)
 ]{Minion Math}
 \setmathfont[range={\mathbfup->\mathup}]{Minion Pro Bold}
 \setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
-% \setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
-% \newcommand{\minioncal}[1]{%
-% \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
+\setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
+\newcommand{\minioncal}[1]{%
+\text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
 
-  \renewcommand{\mathcal}[1]{%
-    \ensuremath
+  % \renewcommand{\mathcal}[1]{%
+  %   \ensuremath
 
-    \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
+  %   \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
 
 % Bib Names in SmallCaps
 \AtBeginBibliography{%
   \renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}%
   \renewcommand*{\mkbibnameprefix}[1]{\textsc{#1}}%
 }
+
+% captions in small caps
+\addtokomafont{caption}{\itshape}
+\addtokomafont{captionlabel}{\scshape}
 
 % adjust numbers
 \usepackage[toc,eqno,enum,bib,lineno]{tabfigures}
