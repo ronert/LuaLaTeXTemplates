@@ -4,7 +4,6 @@
 \LoadClass[xcolor=dvipsnames,natural,svgnames,rgb,cmyk,table,x11names]{beamer}
 
 % language options
-\RequirePackage[babelshorthands]{polyglossia}
 \DeclareOption{english}{\input{english}}
 \DeclareOption{german}{\input{german}}
 \ProcessOptions\relax
@@ -37,15 +36,11 @@
 % math packages
 \input{math}
 
-
-% load language specific packages
-\input{language}
-
-% Encoding
-% xelatex encoding
+% lualatex encoding
 \input{encoding}
 
 % colour
+%\usepackage[natural, svgnames, rgb, cmyk, table, x11names]{xcolor}
 \input{colour}
 
 % other packages
@@ -58,11 +53,11 @@
 \usepackage{url}
 
 % fonts
-\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text,Ligatures=TeX}
+\defaultfontfeatures{Ligatures=TeX}
 \setmainfont{Calibri}
 \setromanfont{Cambria}
 \setsansfont{Calibri}
-\setmonofont{Menlo}
+\setmonofont{Droid Sans Mono}
 \setmathfont{Cambria Math}
 
 % Import all texMacros
