@@ -44,10 +44,10 @@ $\Rightarrow\; \sigma(\mathcal{E})=\mathcal{P}(\Natural)$ ist kleinste $\sigma$-
 - 7.9.5
 * Sigma-Fields
 ** Definition
-1) $\Omega \in \mathcal{A}$ 
+1) $\Omega \in \mathcal{A}$
 2) $A\in \mathcal{A} \Rightarrow A^{C} \in \mathcal{A}$
 3) $(A_{n}) \subset \mathcal{A} \Rightarrow \cup A_{n} \in \mathcal{A}$
-   
+
 \begin{mdframed}[hidealllines=true,backgroundcolor=blue!20]
 The countable/co-countable $\sigma$-field. Let $\Omega = \mathbb{R}$ \\
 $\ZZ: \mathcal{B}=\{A\subset\mathbb{R}: A\; \text{is countable}\} \cup \{A\subset\mathbb{R}:A^{C}\; \text{is countable}\}$ is a $\sigma$-field
@@ -55,7 +55,7 @@ $\ZZ: \mathcal{B}=\{A\subset\mathbb{R}: A\; \text{is countable}\} \cup \{A\subse
 \begin{enumerate}[(M1)]
 \item $\Omega \in \mathcal{B}\; (\text{since}\: \Omega^{C}=\emptyset\:\text{is countable})$
 \item $A \in \mathcal{B}$ implies $A^{C}\in\mathcal{B}$
-\item $A_{i}\in \mathcal{B}$ implies $\bigcap\limits_{i=1}^{\infty}A_{i}\in\mathcal{B}$ 
+\item $A_{i}\in \mathcal{B}$ implies $\bigcap\limits_{i=1}^{\infty}A_{i}\in\mathcal{B}$
 \end{enumerate}
 ** Intersections of Sigma-Algebras
 \begin{mdframed}[hidealllines=true,backgroundcolor=blue!20]
@@ -66,7 +66,7 @@ Man Beweise: Sei $\Omega$ eine Menge, sei $I$ eine Indexmenge und für jedes $i\
 eine $\sigma$-Algebra auf $\Omega$.
 \end{mdframed}
 
-1) $\Omega \in \mathcal{A}_{i} \forall_{i}\in I \Rightarrow \Omega \in\cap \mathcal{A}_{i}$ 
+1) $\Omega \in \mathcal{A}_{i} \forall_{i}\in I \Rightarrow \Omega \in\cap \mathcal{A}_{i}$
 2) $A \in \cap\mathcal{A}_{i} \Rightarrow A \in \mathcal{A}_{i} \forall i \in I \Rightarrow A^{C} \in\cap\mathcal{A}_{i}$
 3) $A_{n} \in\cap\mathcal{A}_{i}\forall n \in \mathbb{N} \Rightarrow A_{n} \in \mathcal{A}_{i}\forall_{i,n} \Rightarrow \cup A_{n} \in \mathcal{A}_{i} \Rightarrow \cup A_{n} \in \cap \mathcal{A}_{i}$
 
@@ -89,7 +89,7 @@ be the set of all \sigma-fields containing $\mathcal{C}$. Then $\aleph\neq \empt
 \[
 \mathcal{B}^{\Game} = \bigcap\limits_{\mathcal{B}\in\aleph}\mathcal{B}.
 \]
-Since each class $\mathcal{B}\in\aleph$ is a \sigma-field, so is 
+Since each class $\mathcal{B}\in\aleph$ is a \sigma-field, so is
 $\mathcal{B}^{\Game}$. Since $\mathcal{B}\in\aleph$ implies $\mathcal{B}\supset\mathcal{C}$, we have $\mathcal{B}^{\Game}\supset\mathcal{C}$. We claim $\mathcal{B}^{\Game}=\sigma(\mathcal{C})$. We checked $\mathcal{B}^{\Game}\supset\mathcal{C}$ and, for minimality, note that if $\mathcal{B}´$ is a \sigma-field such that $\mathcal{B}´\supset\mathcal{C}$, then $\mathcal{B}´\in\aleph$ and hence $\mathcal{B}^{\Game}\subset\mathcal{B}´$.
 
 \begin{mdframed}[hidealllines=true,backgroundcolor=blue!20]
@@ -132,7 +132,7 @@ X^{-1}(\sigma(\mathcal{C}´))=\sigma(X^{-1}(\mathcal{C}´))
 $\ZZ: f(\mathcal{A}_{1}): \{B\subset\mathcal{A}_{2}:f^{-1}(B)\in\mathcal{A}_{1}\}$ $\sigma$-Algebra auf $\Omega_2$
 \end{mdframed}
 
-\begin{enumerate}[(M1)] 
+\begin{enumerate}[(M1)]
 \item $\emptyset \in f(\mathcal{A}_{1}) \Rightarrow \Omega_{2} = \emptyset^{C} \in f(\mathcal{A}_{1})$
 \item Sei $B \in f(\mathcal{A}_{2})$ \\ $f^{-1}(B) \in \mathcal{A}_{1} \Rightarrow (f^{-1}(B_{i}))^{C} \in \mathcal{A}_{1} \Rightarrow f^{-1}(B^{C}) \in \mathcal{A}_{1} \Rightarrow B^{C} \in f(\mathcal{A}_{1})$
 \item Sei $B_{i} \in f(\mathcal{A}_{1})$ \\ $f^{-1}(B_{i}) \in \mathcal{A}_{1} \Rightarrow \bigcup\limits_{i\in\mathbb{N}} f^{-1}(B_{i}) \in \mathcal{A}_{1} \Rightarrow f^{-1}(\bigcup\limits_{i \in \mathbb{N}}) \in \mathcal{A}_{1} \Rightarrow \bigcup\limits_{i \in \mathbb{N}} B_{i} \in f(\mathcal{A}_{1})$
@@ -300,9 +300,9 @@ Define $\Expec{X}\defeq\Expec{X^{+}}-\Expec{X^{-}}$. The set of integrable rando
 3) If $X\geq 0$ then $\Expec{X}\geq 0$ since $X=X^{+}$. If $X,Y \in \mathcal{L}_{1}$, and $X\leq Y$ then \[ \Expec{X} \leq \Expec{Y} \]
 4) Suppose $\{X_n\}$ is a sequence of random variables such that $X_{n} \in \mathcal{L}_{1}$ for some $n$. If either \[ X_{n} \uparrow X  \] or \[ X_{n} \downarrow X  \] then \[ \Expec{X_{n}} \uparrow \Expec{X}  \] or \[ \Expec{X_{n}} \downarrow \Expec{X}  \]
 5) If $X\in\mathcal{L}_{1}$, \[ \Abs{\Expec{X}} \leq \Expec{\Abs{X}}  \]
-6) Variance and Covariance. If $X\in\mathcal{L}_{2}$ then 
-\begin{align} 
-\Var{X} & \defeq \Expec{X^{2}} - (\Expec{X})^{2} \\ 
+6) Variance and Covariance. If $X\in\mathcal{L}_{2}$ then
+\begin{align}
+\Var{X} & \defeq \Expec{X^{2}} - (\Expec{X})^{2} \\
 \mathrm{Cov}(X,Y) & \defeq \Expec{XY} - \Expec{X} \Expec{Y} \\
 \Var{\Sum{X_{i}}{i,1,n}} & = \Sum{\Var{X_{i}}}{i,1,n} + \Sum{\mathrm{Cov}(X_{i},X_{j})}{i,1,n}
 \end{align}
@@ -467,7 +467,7 @@ Seien $\mathcal{C}$ und $\mathcal{D}$ Unter-$\sigma$-Algebren von $\Algebra$, so
 \[
 \mathcal{C} \subset \mathcal{D} \subset \Algebra
 \]
-Sei 
+Sei
 \[
 f\in\mathcal{L}_{1}
 \]
@@ -699,7 +699,7 @@ ein Martingal bezüglich der kanonischen Filtration $\sigma(X_{1},X_{2},\ldots)$
 Es gilt für jedes $t\in \Natural$:
 \begin{align*}
 \Expec{Z_{t+1}\given\Algebra_t} & = \Expec{S_{t+1}^{2}-(t+1)\sigma^{2}\given\sigma{(X_{1},\ldots,X_{t})}} \\
-& = \Expec{S_{t}^{2}+2S^{2}_{t}X_{t+1}+X^{2}_{t+1}\given\sigma(X_{1},\ldots,X_{t})} - (t+1)\sigma^{2} \\ 
+& = \Expec{S_{t}^{2}+2S^{2}_{t}X_{t+1}+X^{2}_{t+1}\given\sigma(X_{1},\ldots,X_{t})} - (t+1)\sigma^{2} \\
 & = S_{t}^{2} +\Expec{X_{t+1}^{2}} - (t+1)\sigma^{2} = S_{t}^{2} - t\sigma^{2} = Z_{t}
 \end{align*}
 * Convergence
@@ -751,7 +751,7 @@ Zeigen Sie, dass $n^{\alpha}\cdot\min_{k \leq n} X_{k}$ stochastisch gegen Null 
 ** $L_{p}$ Convergence
 $X\in\mathcal{L}_{p}$ means $\Expec{\Abs{X}^{p}} < \infty$. A sequence $\{ X_{n} \}$ of random variables converges in $\mathcal{L}_{p}$ to $X$, written
 \[
-X_{n} \overset{\mathcal{L}_{p}}{\rightarrow} X 
+X_{n} \overset{\mathcal{L}_{p}}{\rightarrow} X
 \]
 if
 \begin{empheq}[box=\shadowbox*]{equation}
@@ -930,7 +930,7 @@ By the Borel-Cantelli lemmas, the events $A_{n}=\{X_{n}/\log n \geq 1 + \epsilon
 *** Borel Zero-One Law
 If $\{A_n\}$ is a sequence of independent events, then
 \[
-\Prob{A_{n}\: i.o.} = 
+\Prob{A_{n}\: i.o.} =
 \begin{dcases}
 0, & \textit{iff}\: \Sum{\Prob{A_{n}}}{n} < \infty \\
 1, & \textit{iff}\: \Sum{\Prob{A_{n}}}{n} = \infty
@@ -1015,4 +1015,3 @@ Konvergiert gegen ZV die Exp(1) verteilt ist.
 & = \Prod{\Prob{X_{k}<c}}{k,1,n} \\
 & = \left(\Prob{X_{1}<c}\right)^{n}
 \end{align*}
-

@@ -63,7 +63,7 @@ Script       = Math , %% evtl. unnötig (?)
 }
 
 % captions in small caps
-\addtokomafont{caption}{\itshape}
+%\addtokomafont{caption}{\itshape}
 \addtokomafont{captionlabel}{\scshape}
 
 % adjust numbers
