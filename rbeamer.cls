@@ -57,7 +57,7 @@
 \setmainfont{Calibri}
 \setromanfont{Cambria}
 \setsansfont{Calibri}
-\setmonofont{Droid Sans Mono}
+\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
 \setmathfont{Cambria Math}
 
 % Import all texMacros
