@@ -49,12 +49,12 @@ Script       = Math , %% evtl. unnötig (?)
 \setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
 \setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 \newcommand{\minioncal}[1]{%
-\text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
+  \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
 
-  % \renewcommand{\mathcal}[1]{%
-  %   \ensuremath
+% \renewcommand{\mathcal}[1]{%
+% \ensuremath
 
-  %   \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
+% \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
 
 % Bib Names in SmallCaps
 \AtBeginBibliography{%
@@ -63,7 +63,7 @@ Script       = Math , %% evtl. unnötig (?)
 }
 
 % captions in small caps
-%\addtokomafont{caption}{\itshape}
+% \addtokomafont{caption}{\itshape}
 \addtokomafont{captionlabel}{\scshape}
 
 % adjust numbers
@@ -81,3 +81,6 @@ Script       = Math , %% evtl. unnötig (?)
 \setlength\delimitershortfall{-1pt}
 
 \title{}
+
+% load cleveref last
+\usepackage{cleveref}

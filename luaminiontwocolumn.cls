@@ -74,3 +74,6 @@ Script       = Math , %% evtl. unnötig (?)
 \setlength\delimitershortfall{-1pt}
 
 \title{}
+
+% load cleveref last
+\usepackage{cleveref}
