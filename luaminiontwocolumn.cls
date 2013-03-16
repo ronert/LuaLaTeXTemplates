@@ -48,7 +48,7 @@ Script       = Math , %% evtl. unnötig (?)
 \setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
 \setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 \newcommand{\minioncal}[1]{%
-\text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
+  \text{\fontspec[Contextuals=Swash]{Minion Pro Italic}#1}}
 % Bib Names in SmallCaps
 \AtBeginBibliography{%
   \renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}%
@@ -56,7 +56,7 @@ Script       = Math , %% evtl. unnötig (?)
 }
 
 % captions in small caps
-%\addtokomafont{caption}{\itshape}
+% \addtokomafont{caption}{\itshape}
 \addtokomafont{captionlabel}{\scshape}
 
 % adjust numbers
