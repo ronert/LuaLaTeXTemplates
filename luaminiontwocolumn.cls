@@ -12,6 +12,7 @@
 \cfoot{\pagemark}
 
 % load language specific packages
+\usepackage{hyphsubst}
 \input{language}
 
 % math packages
