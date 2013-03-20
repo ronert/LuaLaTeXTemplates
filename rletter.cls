@@ -5,7 +5,8 @@
 \DeclareOption{german}{\input{german}}
 
 \ProcessOptions\relax
-\LoadClass[parskip=true,a4paper]{scrlttr2}
+
+\LoadClass[parskip=true]{scrlttr2}
 
 % load language specific packages
 \input{language}
@@ -21,7 +22,37 @@
 \input{colour}
 
 % other packages
-\input{packages}
+% figures
+\usepackage{graphicx}
+% code snippets
+\usepackage{minted}
+\usemintedstyle{tango}
+
+% tables
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{layout}
+\usepackage{units}
+\usepackage{cellspace}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{dcolumn}
+\usepackage{multirow}
+
+% tikz setup
+\usepackage{tikz}
+\usetikzlibrary{arrows,matrix,backgrounds,shapes,positioning,fit,chains,calc}
+
+% misc
+\usepackage{rotating}
+\usepackage{cancel} % Durchstreichen
+\usepackage{xparse}
+\usepackage{marginnote}
+\usepackage{ragged2e}
+\usepackage{fixltx2e}
+\usepackage{relsize}
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{eurosym}
 
 % hyperlinks
 \usepackage{url}
@@ -40,9 +71,12 @@ Script       = Math , %% evtl. unnötig (?)
 \setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
 \setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 
-% Pakete
+% import all texMacros
+\input{texMacros}
+\setlength\delimitershortfall{-1pt}
+
+% Klassenspezifische Pakete
 \usepackage{cmap}        % to make the PDF files "searchable and copyable" in pdf viewer
-\usepackage{babel}    % deutschsprachig
 \usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
 \usepackage[headinclude,headtopline]{scrpage2}
 \KOMAoptions{%
