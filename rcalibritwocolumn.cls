@@ -1,4 +1,4 @@
-\ProvidesClass{rcalibrionecolumn}
+\ProvidesClass{rcalibritwocolumn}
 
 % language options
 \DeclareOption{english}{\input{english}}
@@ -41,8 +41,8 @@
 
 % hyperlinks
 \usepackage{url}
-\usepackage[colorlinks=true, linkcolor=SlateBlue2, urlcolor=SlateBlue2,
-citecolor=statblue, filecolor=SlateBlue2, plainpages=false,
+\usepackage[colorlinks=true, linkcolor=statblue, urlcolor=statblue,
+citecolor=statblue, filecolor=statblue, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts

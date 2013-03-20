@@ -1,0 +1,47 @@
+\ProvidesFile{ronertletter.lco}[2011/01/29 lco (Ronert Obst)]
+% Pakete
+\usepackage{cmap}        % to make the PDF files "searchable and copyable" in pdf viewer
+\usepackage{babel}    % deutschsprachig
+\usepackage[utf8]{inputenc}    % utf8 encoding
+\usepackage[T1]{fontenc}    % Schriftkodierung
+\usepackage{mathpazo}
+\usepackage{lmodern}        % Computer Modern-Schrift (TYPE1-tauglich)
+\usepackage{microtype}        % echter Blocksatz
+\usepackage{graphics}
+\usepackage{xcolor}
+\usepackage{pdfpages}        % Einbinden von PDF Seiten aus PDF Dokument
+\usepackage{fixltx2e}        % Verbessert einige Kernkompetenzen von LaTeX2e
+\usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
+\usepackage[headinclude,headtopline]{scrpage2}
+\KOMAoptions{%
+foldmarks=true,
+backaddress=true,
+fromphone=true,
+fromemail=true,
+enlargefirstpage=true,
+paper=A4,
+fontsize=12pt,
+fromalign=right,
+fromrule=false,
+draft=false,
+fromlogo=false
+}
+\setkomavar{fromlogo}{\includegraphics[scale=0.25]{roob2}}
+\setkomavar{fromname}{Ronert Obst}
+\setkomavar{fromaddress}{Spinozastr. 13d\\
+D-12163 Berlin}
+\setkomavar{fromphone}{+49\,1736331244}
+\setkomavar{fromemail}{ronert.obst@gmail.com}
+\setkomavar{place}{Berlin}
+\setkomavar{frombank}{Commerzbank\\BLZ~100\,80\,000\\Kto~503\,473\,500}
+\setkomafont{fromname}{\sffamily\bfseries}
+\setkomafont{backaddress}{\sffamily}
+\setkomafont{fromaddress}{\sffamily}
+\setkomafont{subject}{\sffamily}
+%\setkomafont{frombank}{\sffamily}
+
+%\addtokomafont{fromname}{\scriptsize}
+%\addtokomafont{fromaddress}{\scriptsize}
+\renewcommand*{\raggedsignature}{\raggedright}
+%\@addtoplength[-1]{toaddrvpos}{20mm}
+%\@addtoplength[-1]{refvpos}{20mm}

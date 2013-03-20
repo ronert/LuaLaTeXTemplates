@@ -41,8 +41,8 @@
 
 % hyperlinks
 \usepackage{url}
-\usepackage[colorlinks=true, linkcolor=statorange, urlcolor=statorange,
-citecolor=statblue, filecolor=statorange, plainpages=false,
+\usepackage[colorlinks=true, linkcolor=statblue, urlcolor=statblue,
+citecolor=statblue, filecolor=statblue, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
