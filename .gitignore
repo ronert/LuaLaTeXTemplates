@@ -13,9 +13,6 @@
 /rletter.out
 /rletter.bcf
 /rletter.run.xml
-./luaminiononecolumn_example*
-./luaminiontwocolumn_example*
-
 /examples/luaminiontwocolumn_example.org
 /examples/luaminiononecolumn_example.org
 /examples/rletter_example.tex
