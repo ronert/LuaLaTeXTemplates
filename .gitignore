@@ -15,3 +15,10 @@
 /rletter.run.xml
 ./luaminiononecolumn_example*
 ./luaminiontwocolumn_example*
+
+/examples/luaminiontwocolumn_example.org
+/examples/luaminiononecolumn_example.org
+/examples/rletter_example.tex
+/examples/rletter.tex
+/examples/luaminiontwocolumn_example.tex
+/examples/luaminiononecolumn_example.tex
