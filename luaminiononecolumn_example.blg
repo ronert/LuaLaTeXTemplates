@@ -1,9 +1,0 @@
-[1] Config.pm:357> INFO - This is Biber 1.4
-[1] Config.pm:360> INFO - Logfile is 'luaminiononecolumn_example.blg'
-[184] biber-darwin:157> INFO - === Sat Jan  5, 2013, 12:07:05
-[184] Biber.pm:286> INFO - Reading 'luaminiononecolumn_example.bcf'
-[305] Biber.pm:573> INFO - Found 0 citekeys in bib section 0
-[305] Utils.pm:167> WARN - The file 'luaminiononecolumn_example.bcf' does not contain any citations!
-[342] bbl.pm:462> INFO - Writing 'luaminiononecolumn_example.bbl' with encoding 'UTF-8'
-[342] bbl.pm:535> INFO - Output to luaminiononecolumn_example.bbl
-[342] Biber.pm:107> INFO - WARNINGS: 1
