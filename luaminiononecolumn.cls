@@ -3,6 +3,7 @@
 % language options
 \DeclareOption{english}{\input{english}}
 \DeclareOption{german}{\input{german}}
+\PassOptionsToClass{twoside}{scrartcl}
 
 \ProcessOptions\relax
 
