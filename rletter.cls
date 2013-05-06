@@ -61,7 +61,8 @@ citecolor=DarkRed, filecolor=DarkRed, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
-\setmainfont[Ligatures=TeX]{Garamond Premier Pro}
+%\setmainfont[Ligatures=TeX]{Garamond Premier Pro}
+\setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
 \setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
 \setmathfont[
@@ -80,21 +81,21 @@ Script       = Math , %% evtl. unnötig (?)
 \usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
 \usepackage[headinclude,headtopline]{scrpage2}
 \KOMAoptions{%
-foldmarks=true,
-backaddress=true,
-fromphone=true,
-fromemail=true,
-enlargefirstpage=true,
-paper=A4,
-fontsize=12pt,
-fromalign=right,
-fromrule=false,
-draft=false,
-fromlogo=false
+  foldmarks=true,
+  backaddress=true,
+  fromphone=true,
+  fromemail=true,
+  enlargefirstpage=true,
+  paper=A4,
+  fontsize=12pt,
+  fromalign=right,
+  fromrule=false,
+  draft=false,
+  fromlogo=false
 }
 \setkomavar{fromname}{Ronert Obst}
 \setkomavar{fromaddress}{Spinozastr. 13d\\
-D-12163 Berlin}
+  D-12163 Berlin}
 \setkomavar{fromphone}{+49\,1736331244}
 \setkomavar{fromemail}{ronert.obst@gmail.com}
 \setkomavar{place}{Berlin}
@@ -103,10 +104,10 @@ D-12163 Berlin}
 \setkomafont{backaddress}{\sffamily}
 \setkomafont{fromaddress}{\sffamily}
 \setkomafont{subject}{\sffamily}
-%\setkomafont{frombank}{\sffamily}
+% \setkomafont{frombank}{\sffamily}
 
-%\addtokomafont{fromname}{\scriptsize}
-%\addtokomafont{fromaddress}{\scriptsize}
+% \addtokomafont{fromname}{\scriptsize}
+% \addtokomafont{fromaddress}{\scriptsize}
 \renewcommand*{\raggedsignature}{\raggedright}
-%\@addtoplength[-1]{toaddrvpos}{20mm}
-%\@addtoplength[-1]{refvpos}{20mm}
+% \@addtoplength[-1]{toaddrvpos}{20mm}
+% \@addtoplength[-1]{refvpos}{20mm}
