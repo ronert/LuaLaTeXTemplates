@@ -3,7 +3,8 @@
 % language options
 \DeclareOption{english}{\input{english}}
 \DeclareOption{german}{\input{german}}
-\PassOptionsToClass{twoside}{scrartcl}
+\DeclareOption{twoside}{\PassOptionsToClass{twoside}{scrartcl}}
+
 
 \ProcessOptions\relax
 
@@ -40,9 +41,10 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
 % \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6},Numbers=OldStyle]{Minion Pro}
-\setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
+% \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
+\setmainfont[Ligatures=TeX]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Cronos Pro}
-\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
+\setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \setmathfont[
 Script       = Math , %% evtl. unnötig (?)
 ]{Minion Math}
