@@ -64,7 +64,7 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 %\setmainfont[Ligatures=TeX]{Garamond Premier Pro}
 \setmainfont[Ligatures=TeX]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
-\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
+\setmonofont[Scale=MatchLowercase]{Source Code Pro}
 \setmathfont[
 Script       = Math , %% evtl. unnötig (?)
 ]{Minion Math}
