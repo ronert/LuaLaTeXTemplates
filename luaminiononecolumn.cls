@@ -44,7 +44,7 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 % \setmainfont[Ligatures=TeX,SmallCapsFeatures={LetterSpace=6}]{Minion Pro}
 \setmainfont[Ligatures=TeX]{Minion Pro}
 \setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Cronos Pro}
-\setmonofont[Scale=MatchLowercase]{Source Code Pro}
+\setmonofont[Scale=MatchLowercase]{Menlo}
 \setmathfont[
 Script       = Math , %% evtl. unnötig (?)
 ]{Minion Math}

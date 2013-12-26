@@ -2,15 +2,16 @@
 
 % Horizontal cancel
 \DeclareDocumentCommand{\hcancel}{mO{0pt}O{0pt}O{0pt}O{0pt}}{%
-  \tikz[baseline=(tocancel.base)]{
-    \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
-    \draw[statorange] ($(tocancel.south west)+(#2,#3)$) -- ($(tocancel.north east)+(#4,#5)$);
-  }%
+\tikz[baseline=(tocancel.base)]{
+\node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+\draw[statorange] ($(tocancel.south west)+(#2,#3)$) -- ($(tocancel.north east)+(#4,#5)$);
+}%
 }%
 
 \def\ZZ{\mathrm{Z\kern-.3em\raise-0.5ex\hbox{Z}}}
 
 \DeclareMathOperator*{\argmax}{arg\,max}
+% \DeclareMathOperator*{\argmin}{arg\,min}
 
 \def\given{\,|\,}
 
@@ -42,8 +43,9 @@
 \newcommand{\norm}[1]{\lVert#1\rVert}
 
 \newcommand*{\defeq}{\mathrel{\vcenter{\baselineskip0.5ex \lineskiplimit0pt
-      \hbox{\scriptsize.}\hbox{\scriptsize.}}}%
-  =}
+\hbox{\scriptsize.}\hbox{\scriptsize.}}}%
+=}
 
 % Other misc commands
 \providecommand{\alert}[1]{\textbf{#1}}
+\newcommand{\murl}[2]{\url{#1://#2}}
