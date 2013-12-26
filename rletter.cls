@@ -1,21 +1,21 @@
 \ProvidesClass{rletter}
 
 % language options
-\DeclareOption{english}{\input{english}}
-\DeclareOption{german}{\input{german}}
+\DeclareOption{english}{\input{english.letter}}
+\DeclareOption{german}{\input{german.letter}}
 
 \ProcessOptions\relax
 
-\LoadClass[parskip=true]{scrlttr2}
+\LoadClass[parskip=true,fontsize=10pt]{scrlttr2}
 
 % load language specific packages
-\input{language}
+\input{language.letter}
 
 % math packages
 \input{math}
 
 % lualatex encoding
-\input{encoding}
+\input{encoding.letter}
 
 % colour
 \usepackage[natural, svgnames, rgb, cmyk, table, x11names]{xcolor}
@@ -25,23 +25,19 @@
 % figures
 \usepackage{graphicx}
 % code snippets
-\usepackage{minted}
-\usemintedstyle{tango}
+% \usepackage{minted}
+% \usemintedstyle{tango}
 
 % tables
-\usepackage{array}
+% \usepackage{array}
 \usepackage{booktabs}
-\usepackage{layout}
-\usepackage{units}
-\usepackage{cellspace}
-\usepackage{multicol}
-\usepackage{makecell}
-\usepackage{dcolumn}
-\usepackage{multirow}
-
-% tikz setup
-\usepackage{tikz}
-\usetikzlibrary{arrows,matrix,backgrounds,shapes,positioning,fit,chains,calc}
+% \usepackage{layout}
+% \usepackage{units}
+% \usepackage{cellspace}
+% \usepackage{multicol}
+% \usepackage{makecell}
+% \usepackage{dcolumn}
+% \usepackage{multirow}
 
 % misc
 \usepackage{rotating}
@@ -61,33 +57,23 @@ citecolor=DarkRed, filecolor=DarkRed, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
-%\setmainfont[Ligatures=TeX]{Garamond Premier Pro}
-\setmainfont[Ligatures=TeX]{Minion Pro}
-\setsansfont[Ligatures=TeX,Scale=MatchUppercase]{Myriad Pro}
+\setmainfont[Ligatures=TeX]{Helvetica Neue Light}
+\setsansfont[Ligatures=TeX]{Helvetica Neue Light}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
-\setmathfont[
-Script       = Math , %% evtl. unnötig (?)
-]{Minion Math}
-\setmathfont[range={\mathbfup->\mathup}]{Minion Pro Bold}
-\setmathfont[range={\mathbfit->\mathup}]{Minion Pro Bold Italic}
-\setmathfont[range={\mathcal,\mathbfcal},StylisticSet=1]{XITS Math}
 
-% import all texMacros
-\input{texMacros}
-\setlength\delimitershortfall{-1pt}
 
 % Klassenspezifische Pakete
 \usepackage{cmap}        % to make the PDF files "searchable and copyable" in pdf viewer
 \usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
 \usepackage[headinclude,headtopline]{scrpage2}
 \KOMAoptions{%
-  foldmarks=true,
+  foldmarks=false,
   backaddress=true,
   fromphone=true,
   fromemail=true,
   enlargefirstpage=true,
   paper=A4,
-  fontsize=12pt,
+  fontsize=11pt,
   fromalign=right,
   fromrule=false,
   draft=false,
