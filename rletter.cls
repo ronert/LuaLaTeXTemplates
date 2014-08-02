@@ -12,7 +12,7 @@
 \input{language.letter}
 
 % math packages
-\input{math}
+%\input{math}
 
 % lualatex encoding
 \input{encoding.letter}
@@ -40,14 +40,14 @@
 % \usepackage{multirow}
 
 % misc
-\usepackage{rotating}
-\usepackage{cancel} % Durchstreichen
-\usepackage{xparse}
-\usepackage{marginnote}
-\usepackage{ragged2e}
-\usepackage{fixltx2e}
-\usepackage{relsize}
-\usepackage[framemethod=tikz]{mdframed}
+% \usepackage{rotating}
+% \usepackage{cancel} % Durchstreichen
+% \usepackage{xparse}
+% \usepackage{marginnote}
+% \usepackage{ragged2e}
+% \usepackage{fixltx2e}
+% \usepackage{relsize}
+% \usepackage[framemethod=tikz]{mdframed}
 \usepackage{eurosym}
 
 % hyperlinks
@@ -57,15 +57,19 @@ citecolor=DarkRed, filecolor=DarkRed, plainpages=false,
 pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % fonts
-\setmainfont[Ligatures=TeX]{Helvetica Neue Light}
-\setsansfont[Ligatures=TeX]{Helvetica Neue Light}
+\setmainfont[BoldFont={Helvetica Neue},
+ BoldItalicFont={Helvetica Neue Italic},
+ ItalicFont={Helvetica Neue Light Italic}]{Helvetica Neue Light}
+\setsansfont[BoldFont={Helvetica Neue},
+ BoldItalicFont={Helvetica Neue Italic},
+ ItalicFont={Helvetica Neue Light Italic}]{Helvetica Neue Light}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 
 
 % Klassenspezifische Pakete
 \usepackage{cmap}        % to make the PDF files "searchable and copyable" in pdf viewer
-\usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
-\usepackage[headinclude,headtopline]{scrpage2}
+%\usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
+\usepackage[headtopline]{scrpage2}
 \KOMAoptions{%
   foldmarks=false,
   backaddress=true,
@@ -77,7 +81,8 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
   fromalign=right,
   fromrule=false,
   draft=false,
-  fromlogo=false
+  fromlogo=false,
+  headinclude
 }
 \setkomavar{fromname}{Ronert Obst}
 \setkomavar{fromaddress}{Spinozastr. 13d\\
