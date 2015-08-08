@@ -6,7 +6,7 @@
 
 \ProcessOptions\relax
 
-\LoadClass[parskip=true,fontsize=10pt]{scrlttr2}
+\LoadClass[parskip=true,version=latest]{scrlttr2}
 
 % load language specific packages
 \input{language.letter}
@@ -22,32 +22,8 @@
 \input{colour}
 
 % other packages
-% figures
 \usepackage{graphicx}
-% code snippets
-% \usepackage{minted}
-% \usemintedstyle{tango}
-
-% tables
-% \usepackage{array}
 \usepackage{booktabs}
-% \usepackage{layout}
-% \usepackage{units}
-% \usepackage{cellspace}
-% \usepackage{multicol}
-% \usepackage{makecell}
-% \usepackage{dcolumn}
-% \usepackage{multirow}
-
-% misc
-% \usepackage{rotating}
-% \usepackage{cancel} % Durchstreichen
-% \usepackage{xparse}
-% \usepackage{marginnote}
-% \usepackage{ragged2e}
-% \usepackage{fixltx2e}
-% \usepackage{relsize}
-% \usepackage[framemethod=tikz]{mdframed}
 \usepackage{eurosym}
 
 % hyperlinks
@@ -68,8 +44,6 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 
 % Klassenspezifische Pakete
 \usepackage{cmap}        % to make the PDF files "searchable and copyable" in pdf viewer
-%\usepackage{ellipsis}        % Korrigiert den Weißraum um Auslassungspunkte
-\usepackage[headtopline]{scrpage2}
 \KOMAoptions{%
   foldmarks=false,
   backaddress=true,
@@ -95,10 +69,4 @@ pdfpagelabels, bookmarksnumbered]{hyperref}
 \setkomafont{backaddress}{\sffamily}
 \setkomafont{fromaddress}{\sffamily}
 \setkomafont{subject}{\sffamily}
-% \setkomafont{frombank}{\sffamily}
-
-% \addtokomafont{fromname}{\scriptsize}
-% \addtokomafont{fromaddress}{\scriptsize}
 \renewcommand*{\raggedsignature}{\raggedright}
-% \@addtoplength[-1]{toaddrvpos}{20mm}
-% \@addtoplength[-1]{refvpos}{20mm}
